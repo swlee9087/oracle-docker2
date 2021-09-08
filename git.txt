@@ -1,0 +1,13 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/swlee9087/sprboot-oracle-docker-jaspeen-notmyseed.git
+git push -u origin main
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/swlee9087/oracle-docker2.git
+git push -u origin main
