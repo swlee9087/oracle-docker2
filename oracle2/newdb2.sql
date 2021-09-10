@@ -95,3 +95,43 @@ insert into imported_book VALUES(21, 'Zen Golf', 'Person', 12000);
 insert into imported_book VALUES(22, 'Soccer Skills', 'Human Kinetics', 15000);
 
 commit;
+
+select * from tab;
+
+select * from books;
+select 
+            book_id bookId,
+            book_title bookTitle,
+            price,
+            pub_id pubId
+      from books
+      where price >= 10000
+;
+select * from customers;
+select
+            cust_id customerId,
+            cust_name customerName,
+            address,
+            phone
+      from customers
+      where phone like '%0001'
+;
+select * from orders;
+select
+            order_id orderId,
+            cust_id custId,
+            book_id bookId,
+            order_price orderPrice,
+            order_date orderDate
+      from orders
+      where -- like 
+;
+select * from publishers;
+select
+            pub_id pubId,
+            pub_name pubName,
+            mgr_name mgrName,
+            phone
+      from publishers
+      where --like
+;      
