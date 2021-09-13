@@ -114,7 +114,7 @@ select
             address,
             phone
       from customers
-      where phone like '%0001'
+      where phone like '%[-]%'  
 ;
 select * from orders;
 select
